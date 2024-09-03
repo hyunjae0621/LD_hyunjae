@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 레이아웃</title>
+
+    <style>
+        .basic {
+            display: inline;
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+        }
+
+        span {
+    display: block;
+    background-color: brown;
+}
+
+    .navigation{
+        
+        list-style-type: none;
+        border: 1px solid #000;
+
+    }
+
+    .navigation__item{
+        
+        display: inline-block;
+        padding: 40px 10px 0px;
+        height: 100px;
+    }
+        
+    /* position에 대한 스타일이다 */
+    .container{
+        border: 1px solid #000;
+        padding: 10px;  
+        position: relative;
+        height: 1500px;
+
+    }
+
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        color: white;
+    }
+    .absolute {
+        position: absolute;
+        background-color: red;
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .relative {
+        position: relative;
+        top: 20px;
+        background-color: violet;
+        opacity: 0.5;
+        left: -10px;
+    }
+/* fixed 는 스크롤 해도 위치가 변하지 않는 속성을 가짐 */
+    .fixed{
+        background-color: yellow;
+        position: fixed;
+        top: 0;
+        color: #000;
+    }
+/* 자기 위치를 넘어가는 스크롤에서 그 위치 고정됨 */
+    .sticky {
+        position: sticky;
+        background-color: orange;
+        top: 0;
+        left: 200px;
+    }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="basic"> 
+        Display
+    </div>
+    <span>span태그 입니다</span>
+    <span>span태그 입니다</span>
+    <div>
+        Second
+
+    </div>  
+
+
+    <ul class="navigation">
+        <li class="navigation__item"> 홈 </li>
+        <li class="navigation__item"> 특징 </li>
+        <li class="navigation__item"> 가격 </li>
+        <li class="navigation__item"> 문의 </li>
+
+    </ul>
+
+    <!-- Position -->
+    <div class="container"> 
+        
+        <div class="box">static</div>
+        <!-- 절대적 위치임을 기억해 -->
+        <div class="box absolute">absolute</div>
+
+        <!-- 그 위치를 기반으로 원하는 곳에 고정하기 -->
+        <div class="box relative">relative</div>
+        <!-- 스크롤을 해도 거기에 고정 되있는 fixed -->
+        <div class="box fixed">fixed</div>
+        <!-- 영역 범위 안에서 스크롤 해도 고정되있는 위치 -->
+        <div class="box sticky">sticky</div> 
+    
+
+    </div>
+
+
+    <!-- 자바 스크립트를 연결할때는 body 태그
+      맨 밑에 넣어줘야함 -->
+<script src="./index.js"></script>
+
+</body>
+</html>
