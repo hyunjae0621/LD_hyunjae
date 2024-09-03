@@ -81,7 +81,7 @@ background-color: blue;
   padding: 0 200px 0 200px;
   display: flex;
   justify-content: space-around;
- 
+  text-wrap: nowrap;
 
 }
 
@@ -105,4 +105,37 @@ background-color: blue;
 a {
 text-decoration: none;
 color: black;
+}
+
+
+.section-footer-list{
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.section-footer-list-item  {
+  color: gray;
+  text-wrap: nowrap;
+  flex-wrap: wrap;
+  margin: 0 10px 40px 10px;
+}
+
+hr{
+  width: 70%;
+  height: 2px;
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 30px;
+
+}
+
+
+.company-introduce-text {
+
+  text-align: center;
+
+  
+
 }
