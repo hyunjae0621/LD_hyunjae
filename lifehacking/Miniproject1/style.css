@@ -2,28 +2,45 @@
 
 	display: flex; 
 
-  justify-content: space-around;
+  justify-content: space-evenly;
 
   margin-bottom: 100px;
   
+}
+
+.consulting {
+height: 35px;
+border-radius: 30px;
+
+}
+
+.main-title {
+font-size: 70px;
+font-weight: 900;
 }
 
 .item-size {
 
   width: 400px;
   height: auto;
+  margin-left: 100px;
 }
 
+.bestchoice-box {
+  justify-content: center;
+  align-items: center;
+}
 
 .card {
   border-radius: 5%;
-  /* height: 400px; */
+  height: 400px;
   
   margin: 0 20px ;
 }
 
 .card-title{
   font-size: xx-large;
+  font-weight: 800;
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -32,6 +49,13 @@
 margin-top: 60px;
   margin-bottom: 60px;
 
+}
+
+
+.btn-primary:hover{
+  background-color: white;
+  color: black;
+  font-weight: 800;
 }
 
 .btn-primary {
@@ -46,10 +70,15 @@ margin-top: 60px;
 background-color: blue;
 
 }
-.box{
 
+.bestchoice-text {
 
+  vertical-align: auto;
 }
+
+
+
+
 
 .subscribe{
 
@@ -57,6 +86,15 @@ background-color: blue;
   height: 120px;
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
+
+
+}
+
+.subscribe-button:hover {
+  background-color: white;
+  color: rgb(48, 48, 255);
+  font-weight: 800;
 
 }
 
@@ -68,12 +106,16 @@ background-color: blue;
 
 .subscribe-email {
  
-  margin: 40px 0 0 0;
+  margin: 20px 0 0 0;
 }
 
 .subscribe-button {
- 
+ color: white;
   margin: 0 0 0 0;
+  border-radius: 0%;
+  height: 29px;
+  justify-content: center;
+  text-align: center;
 }
 
 
