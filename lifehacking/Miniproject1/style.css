@@ -75,3 +75,34 @@ background-color: blue;
  
   margin: 0 0 0 0;
 }
+
+
+.sitemap-list{
+  padding: 0 200px 0 200px;
+  display: flex;
+  justify-content: space-around;
+ 
+
+}
+
+
+.sitemap-list-title {
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.sitemap-list-list{
+
+  list-style-type: none;
+}
+
+.sitemap-list-item {
+
+  margin-bottom: 10px;
+}
+
+
+a {
+text-decoration: none;
+color: black;
+}
