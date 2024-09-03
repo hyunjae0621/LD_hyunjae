@@ -1,0 +1,77 @@
+.container {
+
+	display: flex; 
+
+  justify-content: space-around;
+
+  margin-bottom: 100px;
+  
+}
+
+.item-size {
+
+  width: 400px;
+  height: auto;
+}
+
+
+.card {
+  border-radius: 5%;
+  /* height: 400px; */
+  
+  margin: 0 20px ;
+}
+
+.card-title{
+  font-size: xx-large;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.card-text{
+margin-top: 60px;
+  margin-bottom: 60px;
+
+}
+
+.btn-primary {
+
+  background-color: black;
+  
+
+}
+
+.overlay{
+
+background-color: blue;
+
+}
+.box{
+
+
+}
+
+.subscribe{
+
+  background-color: rgb(66, 66, 250);
+  height: 120px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.subscribe-title{
+  color: white;
+  margin: 40px 60px 0 0;
+}
+
+
+.subscribe-email {
+ 
+  margin: 40px 0 0 0;
+}
+
+.subscribe-button {
+ 
+  margin: 0 0 0 0;
+}
