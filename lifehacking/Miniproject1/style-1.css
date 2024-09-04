@@ -1,0 +1,95 @@
+
+a {
+  color: black;
+  text-decoration:none;
+  
+  }
+  
+
+
+.blog {
+  background-color: rgb(20, 20, 146);
+  height: 300px;
+  justify-content: center;
+
+}
+
+.blog-title {
+  padding: 30px 0 20px 0;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+
+}
+
+.blog-description {
+text-align: center;
+color: white;
+
+
+}
+
+.div-blog-input {
+
+  text-align: center;
+}
+
+.blog-input {
+  border-radius: 5cm;
+  border-color: black;
+  height: 20px;
+  width: 150px;
+
+}
+
+.blog-button {
+
+  background-color: rgb(60, 95, 255);
+  color: aliceblue;
+  border-radius: 5cm;
+  border-width: 2px;
+  border-color: aliceblue;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  flex-wrap: wrap;
+}
+
+
+.header-div-title {
+
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+
+.header-list {
+  
+  width: 500px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: x-large;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.header-button {
+  width: 180px;
+  background-color: white;
+  border-radius: 5cm;
+  height: 80px;
+  font-size: 20px;
+  font-weight: 800;
+  border-color: rgb(171, 171, 171);
+  text-wrap: nowrap;
+}
+
+.header-button:hover {
+  background-color: rgb(60, 95, 255);
+  color: aliceblue;
+
+}
