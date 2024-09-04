@@ -38,8 +38,8 @@ font-size: 22px;
 .blog-input {
   border-radius: 5cm;
   border-color: black;
-  height: 25px;
-  width: 150px;
+  height: 30px;
+  width: 200px;
 
 }
 
@@ -65,6 +65,7 @@ font-size: 22px;
 
   margin-left: 50px;
   font-size: 25px;
+  margin-top: 20px;
 }
 
 
@@ -77,6 +78,13 @@ font-size: 22px;
   font-size: x-large;
   font-weight: 600;
   margin-top: 30px;
+
+}
+
+.header-list-item {
+  text-wrap: nowrap;
+  padding: 0 30px;
+
 }
 
 .header-button {
@@ -89,6 +97,7 @@ font-size: 22px;
   border-color: rgb(171, 171, 171);
   text-wrap: nowrap;
   margin-right: 50px;
+  margin-top: 20px;
 }
 
 .header-button:hover {
@@ -98,17 +107,18 @@ font-size: 22px;
 }
 
 .article {
-  text-align: center;
+  display: flex;
   justify-content: center;
-  margin: auto;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .article-section {
 
 
   display: flex;
- 
-  justify-content: space-around;
+  text-align: center;
+  justify-content: center;
   margin: 0;
 }
 
@@ -117,7 +127,7 @@ font-size: 22px;
 
   height: 300px;
   width: 200px;
-  background-color: black;
+  background-color: rgba(54, 79, 238, 0.844);
   margin: 0 10px 20px 10px;
 }
 
@@ -146,16 +156,50 @@ font-size: 22px;
   
 }
 
+.card-title {
+  color: aliceblue;
+
+}
+
+.card-description {
+
+  font-size: 10px;
+  margin: 40px 0 30px 0;
+  padding: 0 10px 0 10px;
+  color: aliceblue;
+}
+
 .card-img{
-margin-top: 20px;
-margin-bottom: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
 height: 100px;
-width: 160px;
+width: 180px;
 
 
 }
 
 .card-date {
+  font-size: 8px;
   padding-left: 10px;
   text-align: left;
+  color: antiquewhite;
+}
+
+.card-reply{
+  font-size: 8px;
+  padding-left: 10px;
+  text-align: right;
+  color: antiquewhite;
+  
+}
+
+.flexible {
+  display:inline-flex;
+ justify-content: space-between;
+
+}
+
+.page-page {
+  justify-content: center;
+  text-align: center;
 }
