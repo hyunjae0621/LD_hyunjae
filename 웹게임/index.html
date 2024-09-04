@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhythm Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rhythm Game</h1>
+    <div id="game-container">
+        <div id="difficulty-selection">
+            <h2>Select Difficulty</h2>
+            <button onclick="startGame('easy')">Easy</button>
+            <button onclick="startGame('normal')">Normal</button>
+            <button onclick="startGame('hard')">Hard</button>
+        </div>
+        
+        <div id="game" style="display: none;">
+            <div id="energy-bar-container">
+                <div id="energy-bar"></div>
+            </div>
+            <canvas id="game-canvas" width="600" height="400"></canvas>
+            <div id="judgement-area">Press S D F J K L</div>
+            <div id="result"></div>
+        </div>
+        
+        <div id="game-over" style="display: none;">
+            <h2>Game Over!</h2>
+            <p>다시 도전하시겠습니까?</p>
+            <button onclick="restartGame()">다시 한다</button>
+            <button onclick="endGame()">그만한다</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

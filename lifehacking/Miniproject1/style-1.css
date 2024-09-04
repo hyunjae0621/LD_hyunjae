@@ -9,23 +9,24 @@ a {
 
 .blog {
   background-color: rgb(20, 20, 146);
-  height: 300px;
+  height: 350px;
   justify-content: center;
 
 }
 
 .blog-title {
-  padding: 30px 0 20px 0;
+  padding: 30px 0 0 0;
   text-align: center;
   color: white;
-  font-size: 40px;
+  font-size: 70px;
 
 }
 
 .blog-description {
 text-align: center;
 color: white;
-
+margin-bottom: 30px;
+font-size: 22px;
 
 }
 
@@ -37,7 +38,7 @@ color: white;
 .blog-input {
   border-radius: 5cm;
   border-color: black;
-  height: 20px;
+  height: 25px;
   width: 150px;
 
 }
@@ -46,6 +47,7 @@ color: white;
 
   background-color: rgb(60, 95, 255);
   color: aliceblue;
+  height: 30px;
   border-radius: 5cm;
   border-width: 2px;
   border-color: aliceblue;
@@ -81,15 +83,79 @@ color: white;
   width: 180px;
   background-color: white;
   border-radius: 5cm;
-  height: 80px;
+  height: 60px;
   font-size: 20px;
   font-weight: 800;
   border-color: rgb(171, 171, 171);
   text-wrap: nowrap;
+  margin-right: 50px;
 }
 
 .header-button:hover {
   background-color: rgb(60, 95, 255);
   color: aliceblue;
 
+}
+
+.article {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.article-section {
+
+
+  display: flex;
+ 
+  justify-content: space-around;
+  margin: 0;
+}
+
+
+.article-section-card {
+
+  height: 300px;
+  width: 200px;
+  background-color: black;
+  margin: 0 10px 20px 10px;
+}
+
+.article-section-card-up {
+
+  height: 150px;
+  width: 200px;
+  border-style: solid;
+  border-color: gainsboro;
+  border-width: 2px;
+  background-color: rgb(0, 255, 179);
+  border-radius: 0.2cm;
+  justify-content: center;
+  text-align: center;
+}
+.article-section-card-down {
+
+  height: 150px;
+  width: 175px;
+  border-style: solid;
+  border-color: gainsboro;
+  border-width: 2px;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.card-img{
+margin-top: 20px;
+margin-bottom: 20px;
+height: 100px;
+width: 160px;
+
+
+}
+
+.card-date {
+  padding-left: 10px;
+  text-align: left;
 }
